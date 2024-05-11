@@ -1,0 +1,16 @@
+function greet(gender, time){
+    if(time>= 16){
+        if (gender ==='male'){
+            console.log("Good Evening Sir");
+        } else if (gender === 'female'){
+            console.log("Good Evening Ma");
+        }
+        }else {
+            if (gender ==='male'){
+                console.log("Good day sir")
+            } else if (gender=== 'female') {
+                console.log("Good Day Ma")}
+
+            }
+            }
+     greet('female',19)
